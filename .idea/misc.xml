@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/drawable-anydpi/ic_action_paused.xml" value="0.24479166666666666" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/drawable-v24/leaderboardbck.xml" value="0.26614583333333336" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/drawable/bckgrdclr.xml" value="0.20885416666666667" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/drawable/bckgrdclr2.xml" value="0.20885416666666667" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/drawable/coin.xml" value="0.14322916666666666" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/drawable/ldboard.xml" value="0.26614583333333336" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/drawable/list_item.xml" value="0.26614583333333336" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/layout/activity_end.xml" value="0.24909420289855072" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/layout/activity_game_rules.xml" value="0.2" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/layout/activity_leaderboards.xml" value="0.264" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/layout/activity_main.xml" value="0.2971887550200803" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/layout/activity_pause.xml" value="0.19270833333333334" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/layout/activity_record.xml" value="0.2" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/layout/activity_splash_screen.xml" value="0.19270833333333334" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/layout/endgame_dialog.xml" value="0.2" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/layout/item_continue.xml" value="0.176" />
+        <entry key="..\:/A-Y2S3/Assignment/app/src/main/res/layout/start_activity.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

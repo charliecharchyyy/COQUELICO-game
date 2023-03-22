@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#e1d0b8"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical">
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true">
+
+                <TextView
+                    android:id="@+id/textCoin"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="11dp"
+                    android:background="@drawable/coin"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="10dp"
+                    android:text="1"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/moon"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="215dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="35dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/pausebtn"
+                    android:onClick="pauseGame" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:gravity="bottom"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#756a91"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:text="Level"
+                    android:textAllCaps="true"/>
+
+                <TextView
+                    android:id="@+id/textLevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#756a91"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:text="5"
+                    android:textAllCaps="true"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageLogo"
+                    android:src="@drawable/space"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:gravity="bottom"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#756a91"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:text="Time"
+                    android:textAllCaps="true"/>
+
+                <TextView
+                    android:id="@+id/textTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#756a91"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:text="5"
+                    android:textAllCaps="true"/>
+            </LinearLayout>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <GridView
+                    android:id="@+id/gdvLisCont"
+                    android:layout_width="match_parent"
+                    android:layout_height="523dp"
+                    android:layout_margin="20dp" />
+
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

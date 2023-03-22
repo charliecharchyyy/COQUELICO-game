@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:text="Leaderboard"
+        android:textAllCaps="true"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:background="@drawable/ldboard">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+ />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnBack"
+        android:onClick="backHome"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Back"
+        android:background="#002147"
+        />
+
+</LinearLayout>
